@@ -55,7 +55,7 @@ import { Server } from "socket.io";
 const PORT = process.env.PORT || 9000;
 const io = new Server(PORT, {
   cors: {
-    origin: 'https://your-frontend.vercel.app',
+    origin: 'https://poetic-bombolone-b44dd4.netlify.app',
     methods: ['GET', 'POST'],
   },
 });
